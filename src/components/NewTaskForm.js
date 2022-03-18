@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function NewTaskForm({newTask, CATEGORIES, onTaskFormSubmit}) {
   const catOptions = CATEGORIES.filter(cat => cat !== "All").map(cat => <option key={cat}>{cat}</option>)

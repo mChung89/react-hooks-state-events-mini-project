@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Task from "./Task"
 
 function TaskList({ filtered, setTask, newTask}) {
